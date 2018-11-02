@@ -24,10 +24,9 @@
     "test:tdd": "cross-env BABEL_ENV=test mocha -c \"test/**/*.spec.js\" --require @babel/register -r @babel/polyfill --watch --watch-extensions js",
     "test:debug": "cross-env BABEL_ENV=test mocha -c \"test/**/*.spec.js\" --require @babel/register -r @babel/polyfill --inspect-brk ",
     "lint": "eslint \"./**/*.js\" --fix",
-    "doc": "./node_modules/.bin/esdoc",
     "start": "webpack-dev-server --open",
     "build": "webpack --config webpack.pro.config.js && babel src -d dist/esm --ignore './src/index.umd.js'",
-    "prepare": "npm run doc && npm run build",
+    "prepare": "npm run build",
     "build:es": "babel lib -d dist/lib2015"
   },
   "author": "Victor Rubinat",
