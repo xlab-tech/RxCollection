@@ -1,5 +1,5 @@
 {
-  "name": "@xlab/rxcolletion",
+  "name": "@xlab-tech/rxcolletion",
   "version": "0.1.0",
   "description": "RxCollection it's a utility for create the observable Collection, we use RXJS for create an observable.",
   "keywords": [

@@ -15,15 +15,14 @@
 RxCollection it's a utility for create the observable Collection, we use RXJS for create an observable.
  It's possible observer all changes in the collection and in all levels. and it's posible filter the types of changes or the properties of the collections that observer.
 
-##Instalation
+## Instalation
 
 ### NPM
 ```
    npm install @xlab/rxcolletion --save
-
 ```
 
-or 
+or
 
 ### CDN
 
@@ -33,5 +32,4 @@ or
 </head>
 ```
 
-##API
-
+## API
