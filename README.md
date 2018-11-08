@@ -19,7 +19,7 @@ RxCollection it's a utility for create the observable Collection, we use RXJS fo
 
 ### NPM
 ```
-   npm install @xlab-tech/rxcolletion --save
+   npm install @xlab-tech/rxcollection --save
 ```
 
 or
@@ -28,7 +28,7 @@ or
 
 ```
 <head>
-<script type=‘application/javascript’ src=‘https://unpkg.com/@xlab-tech/rxcolletion@0.1.0’ defer/>
+<script type=‘application/javascript’ src=‘https://unpkg.com/@xlab-tech/rxcollection@0.1.0’ defer/>
 </head>
 ```
 
